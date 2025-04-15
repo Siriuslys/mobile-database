@@ -3,9 +3,6 @@ import 'package:mobile_db/models/enums.dart';
 
 part 'todo.g.dart';
 
-
-
-
 @Collection()
 class Todo {
   Id id = Isar.autoIncrement;
